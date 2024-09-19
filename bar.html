@@ -19,7 +19,7 @@
     body {
       display: grid;
       place-items: center;
-      height: 20vh;
+      height: 15vh; /* Reduced height to decrease bottom space */
     }
 
     .wrapper {
@@ -29,13 +29,13 @@
 
     .social {
       background-color: #eae9e9;
-      width: 25px;
-      height: 25px;
-      border-radius: 25%;
+      width: 30px;
+      height: 30px;
+      border-radius: 30%;
       display: grid;
       place-items: center;
       position: relative;
-      margin: 5px;
+      margin: 2px; /* Reduced margin to minimize bottom space */
       cursor: pointer;
       transition: background-color 0.3s ease;
     }
@@ -74,6 +74,29 @@
     }
   </style>
 </head>
+<body>
+  <div class="wrapper">
+    <div class="social gmail">
+      <i class="fab fa-google icon"></i>
+    </div>
+    <div class="social outlook">
+      <i class="fab fa-microsoft icon"></i>
+    </div>
+    <div class="social slack">
+      <i class="fab fa-slack icon"></i>
+    </div>
+    <div class="social google-drive">
+      <i class="fab fa-google-drive icon"></i>
+    </div>
+    <div class="social google-keep">
+      <i class="fas fa-lightbulb icon"></i>
+    </div>
+    <div class="social chatgpt">
+      <i class="fas fa-robot icon"></i>
+    </div>
+  </div>
+</body>
+</html>
 
 <body>
 
